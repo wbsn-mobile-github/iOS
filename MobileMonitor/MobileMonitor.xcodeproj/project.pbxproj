@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37092B721BA90E7700AC0C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37092B711BA90E7700AC0C68 /* AppDelegate.swift */; };
+		37092B741BA90E7700AC0C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37092B731BA90E7700AC0C68 /* ViewController.swift */; };
+		37092B771BA90E7700AC0C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37092B751BA90E7700AC0C68 /* Main.storyboard */; };
+		37092B7A1BA90E7700AC0C68 /* MobileMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37092B781BA90E7700AC0C68 /* MobileMonitor.xcdatamodeld */; };
+		37092B7C1BA90E7700AC0C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37092B7B1BA90E7700AC0C68 /* Assets.xcassets */; };
+		37092B7F1BA90E7700AC0C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37092B7D1BA90E7700AC0C68 /* LaunchScreen.storyboard */; };
+		37092B8A1BA90E7800AC0C68 /* MobileMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37092B891BA90E7800AC0C68 /* MobileMonitorTests.swift */; };
+		37092B951BA90E7800AC0C68 /* MobileMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37092B941BA90E7800AC0C68 /* MobileMonitorUITests.swift */; };
+		37092BA41BA90F5A00AC0C68 /* tem.m in Sources */ = {isa = PBXBuildFile; fileRef = 37092BA31BA90F5A00AC0C68 /* tem.m */; };
+		FF113CA2A94297B8B7A73998 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6446257230F52C68B7F4502E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37092B861BA90E7800AC0C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37092B661BA90E7700AC0C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37092B6D1BA90E7700AC0C68;
+			remoteInfo = MobileMonitor;
+		};
+		37092B911BA90E7800AC0C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37092B661BA90E7700AC0C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37092B6D1BA90E7700AC0C68;
+			remoteInfo = MobileMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015B35E328180CBD4F613133 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		37092B6E1BA90E7700AC0C68 /* MobileMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37092B711BA90E7700AC0C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37092B731BA90E7700AC0C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37092B761BA90E7700AC0C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37092B791BA90E7700AC0C68 /* MobileMonitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileMonitor.xcdatamodel; sourceTree = "<group>"; };
+		37092B7B1BA90E7700AC0C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37092B7E1BA90E7700AC0C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37092B801BA90E7700AC0C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37092B851BA90E7800AC0C68 /* MobileMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37092B891BA90E7800AC0C68 /* MobileMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMonitorTests.swift; sourceTree = "<group>"; };
+		37092B8B1BA90E7800AC0C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37092B901BA90E7800AC0C68 /* MobileMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37092B941BA90E7800AC0C68 /* MobileMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMonitorUITests.swift; sourceTree = "<group>"; };
+		37092B961BA90E7800AC0C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37092BA21BA90F5900AC0C68 /* MobileMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
+		37092BA31BA90F5A00AC0C68 /* tem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tem.m; sourceTree = "<group>"; };
+		6446257230F52C68B7F4502E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26E7AF06C7261FBB3099838 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37092B6B1BA90E7700AC0C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF113CA2A94297B8B7A73998 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37092B821BA90E7800AC0C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37092B8D1BA90E7800AC0C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC4DC5D6D795FC09FFC0376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6446257230F52C68B7F4502E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D29B64BA3D2FDD9175F9EBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26E7AF06C7261FBB3099838 /* Pods.debug.xcconfig */,
+				015B35E328180CBD4F613133 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		37092B651BA90E7700AC0C68 = {
+			isa = PBXGroup;
+			children = (
+				37092B701BA90E7700AC0C68 /* MobileMonitor */,
+				37092B881BA90E7800AC0C68 /* MobileMonitorTests */,
+				37092B931BA90E7800AC0C68 /* MobileMonitorUITests */,
+				37092B6F1BA90E7700AC0C68 /* Products */,
+				2D29B64BA3D2FDD9175F9EBF /* Pods */,
+				1AC4DC5D6D795FC09FFC0376 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37092B6F1BA90E7700AC0C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37092B6E1BA90E7700AC0C68 /* MobileMonitor.app */,
+				37092B851BA90E7800AC0C68 /* MobileMonitorTests.xctest */,
+				37092B901BA90E7800AC0C68 /* MobileMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37092B701BA90E7700AC0C68 /* MobileMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				37092B711BA90E7700AC0C68 /* AppDelegate.swift */,
+				37092B731BA90E7700AC0C68 /* ViewController.swift */,
+				37092B751BA90E7700AC0C68 /* Main.storyboard */,
+				37092B7B1BA90E7700AC0C68 /* Assets.xcassets */,
+				37092B7D1BA90E7700AC0C68 /* LaunchScreen.storyboard */,
+				37092B801BA90E7700AC0C68 /* Info.plist */,
+				37092B781BA90E7700AC0C68 /* MobileMonitor.xcdatamodeld */,
+				37092BA31BA90F5A00AC0C68 /* tem.m */,
+				37092BA21BA90F5900AC0C68 /* MobileMonitor-Bridging-Header.h */,
+			);
+			path = MobileMonitor;
+			sourceTree = "<group>";
+		};
+		37092B881BA90E7800AC0C68 /* MobileMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				37092B891BA90E7800AC0C68 /* MobileMonitorTests.swift */,
+				37092B8B1BA90E7800AC0C68 /* Info.plist */,
+			);
+			path = MobileMonitorTests;
+			sourceTree = "<group>";
+		};
+		37092B931BA90E7800AC0C68 /* MobileMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37092B941BA90E7800AC0C68 /* MobileMonitorUITests.swift */,
+				37092B961BA90E7800AC0C68 /* Info.plist */,
+			);
+			path = MobileMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37092B6D1BA90E7700AC0C68 /* MobileMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37092B991BA90E7800AC0C68 /* Build configuration list for PBXNativeTarget "MobileMonitor" */;
+			buildPhases = (
+				E5E328DCD53C9B77BCED4AB1 /* Check Pods Manifest.lock */,
+				37092B6A1BA90E7700AC0C68 /* Sources */,
+				37092B6B1BA90E7700AC0C68 /* Frameworks */,
+				37092B6C1BA90E7700AC0C68 /* Resources */,
+				64E8BEE4D8A7C65C4C155FCE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileMonitor;
+			productName = MobileMonitor;
+			productReference = 37092B6E1BA90E7700AC0C68 /* MobileMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37092B841BA90E7800AC0C68 /* MobileMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37092B9C1BA90E7800AC0C68 /* Build configuration list for PBXNativeTarget "MobileMonitorTests" */;
+			buildPhases = (
+				37092B811BA90E7800AC0C68 /* Sources */,
+				37092B821BA90E7800AC0C68 /* Frameworks */,
+				37092B831BA90E7800AC0C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37092B871BA90E7800AC0C68 /* PBXTargetDependency */,
+			);
+			name = MobileMonitorTests;
+			productName = MobileMonitorTests;
+			productReference = 37092B851BA90E7800AC0C68 /* MobileMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37092B8F1BA90E7800AC0C68 /* MobileMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37092B9F1BA90E7800AC0C68 /* Build configuration list for PBXNativeTarget "MobileMonitorUITests" */;
+			buildPhases = (
+				37092B8C1BA90E7800AC0C68 /* Sources */,
+				37092B8D1BA90E7800AC0C68 /* Frameworks */,
+				37092B8E1BA90E7800AC0C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37092B921BA90E7800AC0C68 /* PBXTargetDependency */,
+			);
+			name = MobileMonitorUITests;
+			productName = MobileMonitorUITests;
+			productReference = 37092B901BA90E7800AC0C68 /* MobileMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37092B661BA90E7700AC0C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mobile;
+				TargetAttributes = {
+					37092B6D1BA90E7700AC0C68 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					37092B841BA90E7800AC0C68 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 37092B6D1BA90E7700AC0C68;
+					};
+					37092B8F1BA90E7800AC0C68 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 37092B6D1BA90E7700AC0C68;
+					};
+				};
+			};
+			buildConfigurationList = 37092B691BA90E7700AC0C68 /* Build configuration list for PBXProject "MobileMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37092B651BA90E7700AC0C68;
+			productRefGroup = 37092B6F1BA90E7700AC0C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37092B6D1BA90E7700AC0C68 /* MobileMonitor */,
+				37092B841BA90E7800AC0C68 /* MobileMonitorTests */,
+				37092B8F1BA90E7800AC0C68 /* MobileMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37092B6C1BA90E7700AC0C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37092B7F1BA90E7700AC0C68 /* LaunchScreen.storyboard in Resources */,
+				37092B7C1BA90E7700AC0C68 /* Assets.xcassets in Resources */,
+				37092B771BA90E7700AC0C68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37092B831BA90E7800AC0C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37092B8E1BA90E7800AC0C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64E8BEE4D8A7C65C4C155FCE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E328DCD53C9B77BCED4AB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37092B6A1BA90E7700AC0C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37092B741BA90E7700AC0C68 /* ViewController.swift in Sources */,
+				37092B7A1BA90E7700AC0C68 /* MobileMonitor.xcdatamodeld in Sources */,
+				37092BA41BA90F5A00AC0C68 /* tem.m in Sources */,
+				37092B721BA90E7700AC0C68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37092B811BA90E7800AC0C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37092B8A1BA90E7800AC0C68 /* MobileMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37092B8C1BA90E7800AC0C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37092B951BA90E7800AC0C68 /* MobileMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37092B871BA90E7800AC0C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37092B6D1BA90E7700AC0C68 /* MobileMonitor */;
+			targetProxy = 37092B861BA90E7800AC0C68 /* PBXContainerItemProxy */;
+		};
+		37092B921BA90E7800AC0C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37092B6D1BA90E7700AC0C68 /* MobileMonitor */;
+			targetProxy = 37092B911BA90E7800AC0C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37092B751BA90E7700AC0C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37092B761BA90E7700AC0C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37092B7D1BA90E7700AC0C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37092B7E1BA90E7700AC0C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37092B971BA90E7800AC0C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37092B981BA90E7800AC0C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37092B9A1BA90E7800AC0C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26E7AF06C7261FBB3099838 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MobileMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.independence.com.MobileMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileMonitor/MobileMonitor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37092B9B1BA90E7800AC0C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015B35E328180CBD4F613133 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MobileMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.independence.com.MobileMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileMonitor/MobileMonitor-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		37092B9D1BA90E7800AC0C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobileMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.independence.com.MobileMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileMonitor.app/MobileMonitor";
+			};
+			name = Debug;
+		};
+		37092B9E1BA90E7800AC0C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobileMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.independence.com.MobileMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileMonitor.app/MobileMonitor";
+			};
+			name = Release;
+		};
+		37092BA01BA90E7800AC0C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.independence.com.MobileMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MobileMonitor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		37092BA11BA90E7800AC0C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobile.independence.com.MobileMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MobileMonitor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37092B691BA90E7700AC0C68 /* Build configuration list for PBXProject "MobileMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37092B971BA90E7800AC0C68 /* Debug */,
+				37092B981BA90E7800AC0C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37092B991BA90E7800AC0C68 /* Build configuration list for PBXNativeTarget "MobileMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37092B9A1BA90E7800AC0C68 /* Debug */,
+				37092B9B1BA90E7800AC0C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37092B9C1BA90E7800AC0C68 /* Build configuration list for PBXNativeTarget "MobileMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37092B9D1BA90E7800AC0C68 /* Debug */,
+				37092B9E1BA90E7800AC0C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37092B9F1BA90E7800AC0C68 /* Build configuration list for PBXNativeTarget "MobileMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37092BA01BA90E7800AC0C68 /* Debug */,
+				37092BA11BA90E7800AC0C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37092B781BA90E7700AC0C68 /* MobileMonitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37092B791BA90E7700AC0C68 /* MobileMonitor.xcdatamodel */,
+			);
+			currentVersion = 37092B791BA90E7700AC0C68 /* MobileMonitor.xcdatamodel */;
+			path = MobileMonitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37092B661BA90E7700AC0C68 /* Project object */;
+}
